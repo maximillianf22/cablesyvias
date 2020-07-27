@@ -1,21 +1,17 @@
    <!--     *********     Header    -->
-      <div class="contactus-1 bg-default" style="background-image: url('{{asset('assets/img/ill/header.jpg')}}'); background-attachment: fixed; background-size:     cover;  background-repeat:   no-repeat;  background-position: center center;">
+      <div class="contactus-1 bg-default mt-1" style="background-image: url('{{asset('assets/img/ill/header.jpg')}}'); background-attachment: fixed; background-size:     cover;  background-repeat:   no-repeat;  background-position: center center; height: 90vh;">
         <div class="container"><br>
           <div class="row">
             <div class="col-lg-5 col-md-5 d-flex justify-content-center flex-column">
-              <h1 class="title text-white">Software <strong>Ventual </strong> Para Restaurantes y Comercios</h1>
-              <h3 class="description text-white">Es una plataforma de comercio electronico para comercios o restaurantes en la cual puedes gestionar y administrar 
-              tu negocio de forma facil, rapida y economica.</h3>
-              <div class="info info-horizontal">
-
-              </div>
+              <h1 class="title text-white">Cables & <strong>Vias </strong><small>s.a.s.</small></h1>
+              <h6 class="text-white">Somos una empresa con 30 años de experiencia, dedicada a la fabricación y montaje de sistemas de transporte por cable en el sector agroindustrial, nuestra empresa ofrece productos y servicios de primera calidad en apoyo aereo, asesoria y diseño de patio de frutas y puentes colgantes, ventas de accesorios y mantenimiento preventivo.</h6>
             </div>
             <div class="col-lg-5 col-md-7 mx-auto" id="formulario" name="formulario">
               <div class="card card-contact card-raised">
                 <form method="post" action="{{ url('/store') }}">
                   {!! csrf_field() !!}
                   <div class="card-header text-center">
-                    <h3 class="card-title text-warning"> Habla con un Experto</h3>
+                    <h3 class="card-title text-success"> Habla con un Experto</h3>
                         <small class="text-uppercase">La mejor solución del mercado </small>
                   </div>
                   <div class="description">
@@ -70,9 +66,9 @@
                     </div>
                     <div class="form-group">
                     <select class="form-control" data-trigger name="bussiness_type" id="bussiness_type" required>
-                      <option disabled selected>Selecciona el Tipo de Negocio</option>
-                      <option value="Comercio">Comercio o Restaurante</option>
-                      <option value="Multicomercio">Multicomercio o Multirestaurante</option>
+                      <option disabled selected>¿Con quien hablamos?</option>
+                      <option value="Natural">Persona Natural</option>
+                      <option value="Juridica">Persona Juridica</option>
                     </select>
                     </div>
                     <div class="row">
@@ -85,7 +81,7 @@
                         </div>
                       </div>
                       <div class="col-md-6">
-                        <button type="submit" value="Enviar" class="btn btn-warning pull-right">Empieza Ahora</button>
+                        <button type="submit" value="Enviar" class="btn btn-success pull-right">Empieza Ahora</button>
                       </div>
                       <div class="container">
                         <small class="text-uppercase"><small class="text-center text-success"><b>Al hacer clic, aceptas nuestros términos y condiciones</b></small></small>

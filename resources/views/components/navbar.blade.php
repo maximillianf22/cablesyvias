@@ -1,10 +1,10 @@
  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg p-0 m-0 navbar-dark bg-gradient-warning" style="height: 2vh;">
+  <nav class="navbar navbar-expand-lg p-0 m-0 navbar-dark bg-gradient-success" style="height: 2vh;">
 </nav>
 <nav class="navbar navbar-expand-lg navbar-light">
-    <div class="container">
+    <div class="container p-lg-0">
         <a class="navbar-brand" href="/">
-            <img class="img-fluid" src="{{asset('images/logo.png')}}" alt=""  style="height: 40px;" />
+            <img class="img-fluid" src="{{asset('images/logo.png')}}" alt=""  style="height: 55px;" />
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-default" aria-controls="navbar-default" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -27,12 +27,12 @@
             </div>
             <ul class="navbar-nav ml-lg-auto">
                 <li class="nav-item">
-                    <a class="btn btn-outline-warning btn-round mt-1" href="#planes">
-                        Planes y Precios
+                    <a class="btn btn-outline-success btn-round mt-1" href="#planes">
+                        Productos y Servicios
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="btn btn-outline-warning btn-round mt-1" href="#negocios">
+                    <a class="btn btn-outline-success btn-round mt-1" href="#negocios">
                         Negocios
                     </a>
                 </li>

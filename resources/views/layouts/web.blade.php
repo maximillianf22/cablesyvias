@@ -19,6 +19,14 @@
   <link href="{{ asset('assets/css/nucleo-svg.css') }}" rel="stylesheet" />
   <!-- CSS Files -->
   <link href="{{ asset('assets/css/argon-design-system.min.css?v=1.0.2') }}" rel="stylesheet" />
+    <!-- Carousel -->
+        <!-- Css Carousel -->
+            <link href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+            <link href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.theme.default.min.css" rel="stylesheet">
+        <!-- Script Carousel -->
+            <script src="https://owlcarousel2.github.io/OwlCarousel2/assets/vendors/jquery.min.js"></script>
+            <script src="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/owl.carousel.js"></script>
+    <!-- End Carousel -->
 
   <style type="text/css">
     .btn_whatsapp, btn_whatsapp:active {position: fixed;z-index: 999;bottom: 10px;right: 10px;background-color: #25d366;color: #fff;padding: 10px 25px;font-size: 13px;border-radius: 50px;font-weight: bold;}
@@ -33,7 +41,7 @@
 
   @include('components.footer')
 
-
+  @yield('js')
    <a href="https://api.whatsapp.com/send?phone=573016245760&amp;text=Hola,%20estoy%20interesado%20en%20el%20producto" class="btn_whatsapp" target="_blank">
         <i class="fab fa-whatsapp fa-3x mt-1 mb-1" aria-hidden="true"></i>
    </a>

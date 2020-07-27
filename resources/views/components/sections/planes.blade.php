@@ -168,7 +168,7 @@
               </div>
             </div>
             <div class="col-md-5">
-              <div class="card card-pricing bg-gradient-warning border-0 text-center mb-4" style="background-image: url('./assets/img/">
+              <div class="card card-pricing bg-gradient-success border-0 text-center mb-4" style="background-image: url('./assets/img/">
                 <div class="card-header bg-transparent">
                   <h6 class="text-uppercase ls-1 text-white py-3 mb-0">Ventual Multi-comercios</h6>
                 </div>
