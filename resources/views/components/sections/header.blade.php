@@ -1,17 +1,20 @@
    <!--     *********     Header    -->
-      <div class="contactus-1 bg-default mt-1" style="background-image: url('{{asset('assets/img/ill/header.jpg')}}'); background-attachment: fixed; background-size:     cover;  background-repeat:   no-repeat;  background-position: center center; height: 90vh;">
+      <div class="contactus-1 bg-default mt-1" style="background-image: url('{{asset('assets/img/ill/header.jpg')}}'); background-attachment: fixed; background-size:     cover;  background-repeat:   no-repeat;  background-position: center center; min-height: 600px;">
         <div class="container"><br>
           <div class="row">
             <div class="col-lg-5 col-md-5 d-flex justify-content-center flex-column">
               <h1 class="title text-white">Cables & <strong>Vias </strong><small>s.a.s.</small></h1>
-              <h6 class="text-white">Somos una empresa con 30 años de experiencia, dedicada a la fabricación y montaje de sistemas de transporte por cable en el sector agroindustrial, nuestra empresa ofrece productos y servicios de primera calidad en apoyo aereo, asesoria y diseño de patio de frutas y puentes colgantes, ventas de accesorios y mantenimiento preventivo.</h6>
+              <h6 class="text-white">
+                Empresa con 30 años de experiencia, dedicada a la fabricación e instalación del sistemas de transporte por cable para sector
+                agroindustrial, nuestra empresa ofrece servicios de primera calidad, profesionalismo y comprometidos con la calidad de nuestros productos.
+              </h6>
             </div>
             <div class="col-lg-5 col-md-7 mx-auto" id="formulario" name="formulario">
               <div class="card card-contact card-raised">
                 <form method="post" action="{{ url('/store') }}">
                   {!! csrf_field() !!}
                   <div class="card-header text-center">
-                    <h3 class="card-title text-success"> Habla con un Experto</h3>
+                    <h3 class="card-title text-primary"> Habla con un Experto</h3>
                         <small class="text-uppercase">La mejor solución del mercado </small>
                   </div>
                   <div class="description">
@@ -81,10 +84,10 @@
                         </div>
                       </div>
                       <div class="col-md-6">
-                        <button type="submit" value="Enviar" class="btn btn-success pull-right">Empieza Ahora</button>
+                        <button type="submit" value="Enviar" class="btn btn-primary pull-right">Empieza Ahora</button>
                       </div>
                       <div class="container">
-                        <small class="text-uppercase"><small class="text-center text-success"><b>Al hacer clic, aceptas nuestros términos y condiciones</b></small></small>
+                        <small class="text-uppercase"><small class="text-center text-muted"><b>Al hacer clic, aceptas nuestros términos y condiciones</b></small></small>
                       </div>
                     </div>
                   </div>
@@ -93,4 +96,4 @@
             </div>
           </div>
         </div>
-      </div><br><br> 
+      </div><br><br>
